@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin20180402001\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.9.0_6263a7b1f77df1a2c3fc4b8ea503a213c45ac491\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin20180402001\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.13\193f20aa559aaa5b9eb1154a9e2ee7dbde476213\rxjava-2.1.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="193f20aa559aaa5b9eb1154a9e2ee7dbde476213">
+        <dex dex="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-2.1.13_f4c0800f0c239f22e4711470b41253f46dd6d4eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin20180402001\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava2-2.3.0_33927e1707172d87fd50e2ca10d4d5a129c26f02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="5a80993995d85da169976534fc89f300279d9869">
+        <dex dex="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_14bba592b565f1d7337f38b06908d1dd572e5c82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin20180402001\.android\build-cache\2014da12fa574a1ab5e52c9c823a5f03946638c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="3a64f14f460e307f5dfce75e9804e20077d3e6e8">
+        <dex dex="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5878c3acc47d5e0b2743f69baea23925abb30ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Android\3\demo\AndroidMVPSample\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bc25fca62d28e703d9473b0985a1d032529a0b4d\classes.dex" />
+    </item>
+
+</items>
