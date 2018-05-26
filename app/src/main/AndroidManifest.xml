@@ -27,6 +27,18 @@
         <activity android:name=".lifecycle_livedata_mvvm.view.A_UserActivity"/>
         <activity android:name=".retrofit_lifecyecle_livedata_mvvm.view.B_UserActivity"/>
         <activity android:name=".mvp_demo.test.view.TestMVPActviity"/>
+        <activity android:name=".vlayout_demo.VLayoutActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.LinearLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.GridLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.StickyLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.StaggeredGridLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.SingleLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.ScrollFixLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.OnePlusNLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.FloatLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.ColumnLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.FixLayoutHelperActivity"/>
+        <activity android:name=".vlayout_demo.vlayout_activity.AllActivity"/>
     </application>
 
 </manifest>

@@ -145,6 +145,7 @@
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" name="logging-interceptor-3.9.0" level="project" />
     <orderEntry type="library" exported="" name="design-26.1.0" level="project" />
+    <orderEntry type="library" exported="" name="vlayout-1.2.6" level="project" />
     <orderEntry type="library" exported="" name="android-android-26" level="project" />
   </component>
 </module>
