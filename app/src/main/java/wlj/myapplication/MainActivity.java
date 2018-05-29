@@ -7,6 +7,7 @@ import android.view.View;
 
 import wlj.myapplication.mvp_demo.test.view.TestMVPActviity;
 import wlj.myapplication.my_draw_view.MyDrawActivity;
+import wlj.myapplication.my_dialg_view_test.MyViewTestActivity;
 import wlj.myapplication.practice_draw_view.PracticeDrawActivity;
 import wlj.myapplication.practice_draw_view2.PracticeDrawActivity2;
 import wlj.myapplication.vlayout_demo.VLayoutActivity;
@@ -47,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.vlayout:
                 startActivity(new Intent(this, VLayoutActivity.class));
                 break;
-            case R.id.my_view_test:
-                startActivity(new Intent(this, VLayoutActivity.class));
+            case R.id.my_dialog_view_test:
+                startActivity(new Intent(this, MyViewTestActivity.class));
                 break;
         }
     }

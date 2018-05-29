@@ -30,6 +30,7 @@ dependencies {
 
     //tablayout等控件
     compile 'com.android.support:design:26.+'
+    compile 'com.android.support:cardview-v7:26.+'
 
     // Lifecycles, LiveData and ViewModel
     compile "android.arch.lifecycle:runtime:$rootProject.lifecycleRuntime"

@@ -76,14 +76,14 @@
             android:gravity="center"
             android:text="阿里Vlayout简单使用demo" />
         <TextView
-            android:id="@+id/my_view_test"
+            android:id="@+id/my_dialog_view_test"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@drawable/view_onclick_bg"
             android:onClick="onClick"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="my_view_test(一些demo)" />
+            android:text="my_dialog_view_test(一些demo)" />
 
 
     </LinearLayout>

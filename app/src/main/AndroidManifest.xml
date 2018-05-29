@@ -40,6 +40,18 @@
         <activity android:name=".vlayout_demo.vlayout_activity.FixLayoutHelperActivity"/>
         <activity android:name=".vlayout_demo.vlayout_activity.AllActivity"/>
         <activity android:name=".my_draw_view.MyDrawActivity"/>
+        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar-->
+        <activity android:name=".my_dialg_view_test.MyViewTestActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".my_dialg_view_test.activity.CalendarAllSlideActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyChooseIndicatorActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyLoadViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyProgressViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyRaderViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyPieViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MySlideButtonViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyThermometerViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyProgressButtonViewActivity"/>
     </application>
 
 </manifest>

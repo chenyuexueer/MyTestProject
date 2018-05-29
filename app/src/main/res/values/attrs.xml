@@ -18,4 +18,22 @@
         <!--进度文字颜色-->
         <attr name="textColor" format="reference|color"/>
     </declare-styleable>
+
+
+    <!--自定义view    日历选择器   的属性-->
+    <declare-styleable name="calendarview">
+        <attr name="backgroundColor" />
+        <attr name="textColor" />
+        <attr name="weeks_color" format="color" />
+        <attr name="selected_color" format="color" />
+        <attr name="today_color" format="color" />
+        <attr name="year" format="integer" />
+        <attr name="month" format="integer" />
+        <attr name="today" format="integer" />
+        <attr name="selected" format="integer" />
+    </declare-styleable>
+
+
+
+
 </resources>

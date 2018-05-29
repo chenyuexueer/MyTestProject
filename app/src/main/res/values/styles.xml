@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--my_view_test的activity_my_view_test的AppBarLayout的==========start-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--需要在Androidmanifest.xml中使用-->
+    <!--my_view_test的activity_my_view_test的AppBarLayout的==========end-->
+
 </resources>

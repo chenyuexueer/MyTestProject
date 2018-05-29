@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--my_dialog_view_test包的弹出dialog背景-->
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners
+                android:radius="10sp" />
+        </shape>
+    </item>
+</layer-list>
