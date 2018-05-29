@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import wlj.myapplication.mvp_demo.test.view.TestMVPActviity;
+import wlj.myapplication.my_draw_view.MyDrawActivity;
 import wlj.myapplication.practice_draw_view.PracticeDrawActivity;
 import wlj.myapplication.practice_draw_view2.PracticeDrawActivity2;
 import wlj.myapplication.vlayout_demo.VLayoutActivity;
@@ -16,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     public void onClick(View view) {
@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_practice_draw2:
                 startActivity(new Intent(this, PracticeDrawActivity2.class));
                 break;
+            case R.id.my_draw_view:
+                startActivity(new Intent(this, MyDrawActivity.class));
+                break;
 
             case R.id.mvp:
                     startActivity(new Intent(this, TestMVPActviity.class));
@@ -44,7 +47,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.vlayout:
                 startActivity(new Intent(this, VLayoutActivity.class));
                 break;
-
+            case R.id.my_view_test:
+                startActivity(new Intent(this, VLayoutActivity.class));
+                break;
         }
     }
 }

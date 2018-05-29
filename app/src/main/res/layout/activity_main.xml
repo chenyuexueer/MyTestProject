@@ -9,46 +9,82 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="30dp">
 
-        <Button
+        <TextView
             android:id="@+id/btn_application"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:onClick="onClick"
+            android:gravity="center"
+            android:background="@drawable/view_onclick_bg"
             android:text="Application" />
 
-        <Button
+        <TextView
             android:id="@+id/btn_implementation"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:onClick="onClick"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:text="Implementation" />
 
-        <Button
+        <TextView
             android:id="@+id/btn_practice_draw"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:onClick="onClick"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:text="PractiveDrawView" />
-        <Button
+        <TextView
             android:id="@+id/btn_practice_draw2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
             android:onClick="onClick"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:text="PractiveDrawView2" />
-        <Button
+        <TextView
+            android:id="@+id/my_draw_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/view_onclick_bg"
+            android:onClick="onClick"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="自定义view" />
+        <TextView
             android:id="@+id/mvp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:onClick="onClick"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
+            android:gravity="center"
             android:text="MVP" />
-        <Button
+        <TextView
             android:id="@+id/vlayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/view_onclick_bg"
             android:onClick="onClick"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
             android:text="阿里Vlayout简单使用demo" />
+        <TextView
+            android:id="@+id/my_view_test"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/view_onclick_bg"
+            android:onClick="onClick"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="my_view_test(一些demo)" />
+
 
     </LinearLayout>
 

@@ -39,6 +39,7 @@
         <activity android:name=".vlayout_demo.vlayout_activity.ColumnLayoutHelperActivity"/>
         <activity android:name=".vlayout_demo.vlayout_activity.FixLayoutHelperActivity"/>
         <activity android:name=".vlayout_demo.vlayout_activity.AllActivity"/>
+        <activity android:name=".my_draw_view.MyDrawActivity"/>
     </application>
 
 </manifest>
