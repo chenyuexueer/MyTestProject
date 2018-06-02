@@ -7,10 +7,15 @@ import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;
 
+import wlj.myapplication.R;
+import wlj.myapplication.my_dialg_view_test.activity.MyWaterDropLoadViewDialog;
 import wlj.myapplication.my_dialg_view_test.my_dialog.MyCalendarViewDialog;
+import wlj.myapplication.my_dialg_view_test.my_dialog.MyJumpWordLoadViewDialog;
 import wlj.myapplication.my_dialg_view_test.my_dialog.MyLoadViewDialog;
 import wlj.myapplication.my_dialg_view_test.my_dialog.MyProgressViewDialog;
+import wlj.myapplication.my_dialg_view_test.my_dialog.MyWheelViewDialog;
 import wlj.myapplication.my_dialg_view_test.view.MyCalendarView;
+import wlj.myapplication.my_dialg_view_test.view.MyWheelView;
 
 /**
  * ================================================
@@ -148,77 +153,82 @@ public class DialogUtil {
         window.setAttributes(p);
         return dialog;
     }
-    //    /**
-    //     * 获取一个加载提示dialog
-    //     *
-    //     * @param context
-    //     * @return
-    //     */
-    //    public Dialog getLoadDialog2(Activity context) {
-    //        Load2Dialog dialog = new Load2Dialog(context);
-    //        Window window = dialog.getWindow();
-    //        window.setGravity(Gravity.CENTER); // 此处可以设置dialog显示的位置
-    //        dialog.setCancelable(true);
-    //        dialog.show();
-    //        WindowManager m = context.getWindowManager();
-    //        Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
-    //        WindowManager.LayoutParams p = window.getAttributes(); // 获取对话框当前的参数值
-    //        p.height = (int) (d.getHeight() * 0.5);
-    //        p.width = (int) (d.getWidth() * 0.5);
-    //        p.height = p.width = Math.min(p.height , p.width);
-    //        dialog.onWindowAttributesChanged(p);
-    //        p.dimAmount = 0f;// 设置背景不变暗
-    //        window.setAttributes(p);
-    //        return dialog;
+        /**
+         * 获取一个加载提示dialog
+         *
+         * 水滴状的
+         *
+         * @param context
+         * @return
+         */
+        public Dialog getWaterDropViewLoadDialog(Activity context) {
+            MyWaterDropLoadViewDialog dialog = new MyWaterDropLoadViewDialog(context);
+            Window window = dialog.getWindow();
+            window.setGravity(Gravity.CENTER); // 此处可以设置dialog显示的位置
+            dialog.setCancelable(true);
+            dialog.show();
+            WindowManager m = context.getWindowManager();
+            Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
+            WindowManager.LayoutParams p = window.getAttributes(); // 获取对话框当前的参数值
+            p.height = (int) (d.getHeight() * 0.5);
+            p.width = (int) (d.getWidth() * 0.5);
+            p.height = p.width = Math.min(p.height , p.width);
+            dialog.onWindowAttributesChanged(p);
+            p.dimAmount = 0f;// 设置背景不变暗
+            window.setAttributes(p);
+            return dialog;
 
-//    }
-    //    /**
-    //     * 获取一个加载提示dialog
-    //     *
-    //     * @param context
-    //     * @return
-    //     */
-    //    public Dialog getLoadDialog3(Activity context,int showType) {
-    //        Load3Dialog dialog = new Load3Dialog(context,showType);
-    //        Window window = dialog.getWindow();
-    //        window.setGravity(Gravity.CENTER); // 此处可以设置dialog显示的位置
-    //        dialog.setCancelable(true);
-    //        dialog.show();
-    //        WindowManager m = context.getWindowManager();
-    //        Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
-    //        WindowManager.LayoutParams p = window.getAttributes(); // 获取对话框当前的参数值
-    //        p.height = (int) (d.getHeight() * 0.5);
-    //        p.width = (int) (d.getWidth() * 0.5);
-    //        p.height = p.width = Math.min(p.height , p.width);
-    //        dialog.onWindowAttributesChanged(p);
-    //        p.dimAmount = 0f;// 设置背景不变暗
-    //        window.setAttributes(p);
-    //        return dialog;
+    }
+        /**
+         * 获取一个加载提示dialog
+         *
+         * 跳动的文字加载动画
+         *
+         * @param context
+         * @return
+         */
+        public Dialog getLoadDialog3(Activity context,int showType) {
+            MyJumpWordLoadViewDialog dialog = new MyJumpWordLoadViewDialog(context,showType);
+            Window window = dialog.getWindow();
+            window.setGravity(Gravity.CENTER); // 此处可以设置dialog显示的位置
+            dialog.setCancelable(true);
+            dialog.show();
+            WindowManager m = context.getWindowManager();
+            Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
+            WindowManager.LayoutParams p = window.getAttributes(); //获取对话框当前的参数值
+            p.height = (int) (d.getHeight() * 0.5);
+            p.width = (int) (d.getWidth() * 0.5);
+            p.height = p.width = Math.min(p.height , p.width);
+            dialog.onWindowAttributesChanged(p);
+            p.dimAmount = 0f;// 设置背景不变暗
+            window.setAttributes(p);
+            return dialog;
+    }
 
-//    }
-//    /**
-//     * 获取一个时间滚轮选择器
-//     * @param context
-//     * @param type
-//     * @param listener
-//     * @return
-//     */
-//    public Dialog getWheelDialog(Activity context,LWheelDialog.LWheelDialogType type,LWheelView.LWheelViewListener listener){
-//        LWheelDialog dialog = new LWheelDialog(context, type, listener);
-//        Window window = dialog.getWindow();
-//        window.setGravity(Gravity.BOTTOM); // 此处可以设置dialog显示的位置
-//        window.setWindowAnimations(R.style.dialogstyle_vertical); // 添加动画
-//        dialog.setCancelable(true);
-//        dialog.show();
-//        WindowManager m = context.getWindowManager();
-//        Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
-//        WindowManager.LayoutParams p = window.getAttributes(); // 获取对话框当前的参数值
-//        p.height = (int) (d.getHeight() * 0.5);
-//        p.width = (int) (d.getWidth());
-//        dialog.onWindowAttributesChanged(p);
-//        window.setAttributes(p);
-//        return dialog;
-//    }
+
+    /**
+     * 获取一个时间滚轮选择器
+     * @param context
+     * @param type
+     * @param listener
+     * @return
+     */
+    public Dialog getWheelDialog(Activity context,MyWheelViewDialog.MyWheelDialogType type,MyWheelView.MyWheelViewListener listener){
+        MyWheelViewDialog dialog = new MyWheelViewDialog(context, type, listener);
+        Window window = dialog.getWindow();
+        window.setGravity(Gravity.BOTTOM); // 此处可以设置dialog显示的位置
+        window.setWindowAnimations(R.style.dialogstyle_vertical); // 添加动画
+        dialog.setCancelable(true);
+        dialog.show();
+        WindowManager m = context.getWindowManager();
+        Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
+        WindowManager.LayoutParams p = window.getAttributes(); // 获取对话框当前的参数值
+        p.height = (int) (d.getHeight() * 0.5);
+        p.width = (int) (d.getWidth());
+        dialog.onWindowAttributesChanged(p);
+        window.setAttributes(p);
+        return dialog;
+    }
 
     public DialogUtil(double dialogWidthProportion,
                       double dialogHeightProportion) {

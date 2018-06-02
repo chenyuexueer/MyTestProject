@@ -43,7 +43,7 @@
         <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar-->
         <activity android:name=".my_dialg_view_test.MyViewTestActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".my_dialg_view_test.activity.CalendarAllSlideActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyCalendarAllSlideActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyChooseIndicatorActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyLoadViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyProgressViewActivity"/>
@@ -52,6 +52,15 @@
         <activity android:name=".my_dialg_view_test.activity.MySlideButtonViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyThermometerViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyProgressButtonViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyWheelViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyXiuXiuImageViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyGradualViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyWaterDropLoadViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyLineChartViewActivity"/>
+        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar   因为view2-->
+        <activity android:theme="@style/AppTheme.NoActionBar"
+            android:name=".my_dialg_view_test.activity.MyScratchCardViewActivity"/>
+        <activity android:name=".my_dialg_view_test.activity.MyJumpWordLoadViewActivity"/>
     </application>
 
 </manifest>

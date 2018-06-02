@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--系统自带draweblelayout  支付宝咻一咻      drawerlayout：中间  左边  右边-->
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- drawerlayout的中间-->
+        <LinearLayout
+            android:id="@+id/built_in_center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <wlj.myapplication.my_dialg_view_test.view.MyXiuXiuImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/phone"/>
+        </LinearLayout>
+
+
+        <!--   android:layout_gravity="start"       drawerlayout的左边-->
+        <LinearLayout
+            android:id="@+id/built_in_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#80a45875">
+
+            <wlj.myapplication.my_dialg_view_test.view.MyXiuXiuImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/phone"/>
+        </LinearLayout>
+
+        <!--   android:layout_gravity="end"       drawerlayout的右边-->
+        <LinearLayout
+            android:id="@+id/built_in_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="#80a49845">
+
+            <wlj.myapplication.my_dialg_view_test.view.MyXiuXiuImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/batman"/>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>
