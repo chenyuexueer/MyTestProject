@@ -6,10 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import wlj.myapplication.mvp_demo.test.view.TestMVPActviity;
-import wlj.myapplication.my_draw_view.MyDrawActivity;
 import wlj.myapplication.my_dialg_view_test.MyViewTestActivity;
+import wlj.myapplication.my_draw_view.MyDrawActivity;
 import wlj.myapplication.practice_draw_view.PracticeDrawActivity;
 import wlj.myapplication.practice_draw_view2.PracticeDrawActivity2;
+import wlj.myapplication.room_test.MyRoomTestActivity;
 import wlj.myapplication.vlayout_demo.VLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.my_dialog_view_test:
                 startActivity(new Intent(this, MyViewTestActivity.class));
+                break;
+            case R.id.room:
+                startActivity(new Intent(this, MyRoomTestActivity.class));
                 break;
         }
     }

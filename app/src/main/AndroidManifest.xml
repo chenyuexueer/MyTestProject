@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="wlj.myapplication">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:name=".mvp_demo.base.MyMVPApplication"
@@ -40,8 +39,9 @@
         <activity android:name=".vlayout_demo.vlayout_activity.FixLayoutHelperActivity"/>
         <activity android:name=".vlayout_demo.vlayout_activity.AllActivity"/>
         <activity android:name=".my_draw_view.MyDrawActivity"/>
-        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar-->
-        <activity android:name=".my_dialg_view_test.MyViewTestActivity"
+        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar -->
+        <activity
+            android:name=".my_dialg_view_test.MyViewTestActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".my_dialg_view_test.activity.MyCalendarAllSlideActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyChooseIndicatorActivity"/>
@@ -57,10 +57,16 @@
         <activity android:name=".my_dialg_view_test.activity.MyGradualViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyWaterDropLoadViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyLineChartViewActivity"/>
-        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar   因为view2-->
-        <activity android:theme="@style/AppTheme.NoActionBar"
-            android:name=".my_dialg_view_test.activity.MyScratchCardViewActivity"/>
+        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar   因为view2 -->
+        <activity
+            android:name=".my_dialg_view_test.activity.MyScratchCardViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".my_dialg_view_test.activity.MyJumpWordLoadViewActivity"/>
+        <activity android:name=".room_test.MyRoomTestActivity">
+        </activity>
+        <activity android:name=".room_test.upgrade_database.UpgradeDatabaseActivity">
+        </activity>
+        <activity android:name=".room_test.room_livedata_demo.RoomLivedataActivity"/>
     </application>
 
 </manifest>

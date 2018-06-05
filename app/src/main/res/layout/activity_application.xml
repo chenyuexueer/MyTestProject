@@ -16,14 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Hello MVVM" />
+            android:text="Hello MVVM(lifecycle_livedata_mvvm)" />
 
         <Button
             android:id="@+id/btn_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Repository" />
+            android:text="Repository(Retrofot_lifecycle_livedata_mvvm)" />
 
         <Button
             android:id="@+id/btn_c"
