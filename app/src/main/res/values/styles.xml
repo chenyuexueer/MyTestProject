@@ -13,6 +13,7 @@
         <item name="android:colorBackground">@color/colorPrimary</item>
         <item name="android:textColor">@color/white</item>
     </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -32,6 +33,8 @@
         <!--<item name="@android:windowExitAnimation">@anim/slide_out_to_bottom</item>-->
         <!-- 退出时的动画 -->
     </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <!--===================滚轮控件的动画=============end-->
 
 

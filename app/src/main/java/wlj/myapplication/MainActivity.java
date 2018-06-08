@@ -5,9 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import wlj.myapplication.drawerlayout_navigation_toolbar.DrawerLayoutActivityDemo;
 import wlj.myapplication.mvp_demo.test.view.TestMVPActviity;
 import wlj.myapplication.my_dialg_view_test.MyViewTestActivity;
-import wlj.myapplication.my_draw_view.MyDrawActivity;
+import wlj.myapplication.my_draw_view_drawerLayout.MyDrawActivity;
 import wlj.myapplication.practice_draw_view.PracticeDrawActivity;
 import wlj.myapplication.practice_draw_view2.PracticeDrawActivity2;
 import wlj.myapplication.room_test.MyRoomTestActivity;
@@ -54,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.room:
                 startActivity(new Intent(this, MyRoomTestActivity.class));
+                break;
+            case R.id.drawerlayout:
+                startActivity(new Intent(this, DrawerLayoutActivityDemo.class));
                 break;
         }
     }

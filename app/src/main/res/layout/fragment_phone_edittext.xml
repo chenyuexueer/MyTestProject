@@ -3,7 +3,7 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-    <wlj.myapplication.my_draw_view.view.PhoneEditText
+    <wlj.myapplication.my_draw_view_drawerLayout.view.PhoneEditText
         android:id="@+id/mdv_aet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

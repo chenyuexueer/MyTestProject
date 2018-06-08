@@ -38,7 +38,7 @@
         <activity android:name=".vlayout_demo.vlayout_activity.ColumnLayoutHelperActivity"/>
         <activity android:name=".vlayout_demo.vlayout_activity.FixLayoutHelperActivity"/>
         <activity android:name=".vlayout_demo.vlayout_activity.AllActivity"/>
-        <activity android:name=".my_draw_view.MyDrawActivity"/>
+        <activity android:name=".my_draw_view_drawerLayout.MyDrawActivity"/>
         <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar -->
         <activity
             android:name=".my_dialg_view_test.MyViewTestActivity"
@@ -67,6 +67,16 @@
         <activity android:name=".room_test.upgrade_database.UpgradeDatabaseActivity">
         </activity>
         <activity android:name=".room_test.room_livedata_demo.RoomLivedataActivity"/>
+        <activity
+            android:name=".drawerlayout_navigation_toolbar.DrawerLayoutActivityDemo"
+            android:label="@string/title_activity_drawer_layout_demo"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".drawerlayout_navigation_toolbar.DrawerlayoutNavigationViewActivity"
+            android:label="@string/title_activity_drawerlayout_navigation_view"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

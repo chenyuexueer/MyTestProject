@@ -1,4 +1,4 @@
-package wlj.myapplication.my_draw_view;
+package wlj.myapplication.my_draw_view_drawerLayout;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;

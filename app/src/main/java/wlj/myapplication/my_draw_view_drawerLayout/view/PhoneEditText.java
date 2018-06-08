@@ -1,4 +1,4 @@
-package wlj.myapplication.my_draw_view.view;
+package wlj.myapplication.my_draw_view_drawerLayout.view;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatEditText;
