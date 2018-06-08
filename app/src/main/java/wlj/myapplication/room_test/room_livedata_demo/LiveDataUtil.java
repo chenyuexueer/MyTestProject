@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * ================================================
  * Created by ${chenyuexueer}
  * 时间： 2018/6/5.
- * 说明：将观察到的数据返回去
+ * 说明：将观察到的数据返回去原数据
  * ================================================
  */
 public class LiveDataUtil {

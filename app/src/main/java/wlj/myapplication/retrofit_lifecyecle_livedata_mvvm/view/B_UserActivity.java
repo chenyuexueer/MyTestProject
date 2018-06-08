@@ -55,7 +55,7 @@ public class B_UserActivity extends AppCompatActivity {
     }
 
     private void updateView(B_User BUser) {
-        Log.d(TAG, BUser.toString());
+        Log.e(TAG, BUser.toString());
         tvId.setText(BUser.getId() + "");
         tvName.setText(BUser.getLogin());
     }
