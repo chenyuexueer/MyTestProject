@@ -90,6 +90,7 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".drawerlayout_navigation_toolbar.DrawerLayoutOtherActivity"/>
+        <activity android:name=".bottomsheet.BottomSheetActivity"/>
     </application>
 
 </manifest>

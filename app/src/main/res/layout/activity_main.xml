@@ -102,6 +102,15 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="DrawerLayout Demo" />
+        <TextView
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/view_onclick_bg"
+            android:onClick="onClick"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="BottomSheet Demo" />
 
 
     </LinearLayout>

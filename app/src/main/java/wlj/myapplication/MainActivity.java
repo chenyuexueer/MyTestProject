@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import wlj.myapplication.bottomsheet.BottomSheetActivity;
 import wlj.myapplication.drawerlayout_navigation_toolbar.DrawerLayoutActivityDemo;
 import wlj.myapplication.mvp_demo.test.view.TestMVPActviity;
 import wlj.myapplication.my_dialg_view_test.MyViewTestActivity;
@@ -58,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.drawerlayout:
                 startActivity(new Intent(this, DrawerLayoutActivityDemo.class));
+                break;
+            case R.id.bottom_sheet:
+                startActivity(new Intent(this, BottomSheetActivity.class));
                 break;
         }
     }
