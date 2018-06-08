@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".drawerlayout_navigation_toolbar.DrawerLayoutActivityDemo"
+    tools:showIn="@layout/activity_drawer_layout_demo">
+
+    <TextView
+        android:id="@+id/drawerlayout_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/view_onclick_bg"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="基本的DrawerLayout+NavigationView" />
+
+    <TextView
+        android:id="@+id/drawerlayout_navigation_below_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/view_onclick_bg"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="DrawerLayout+NavigationView在toolbar下方" />
+
+    <TextView
+        android:id="@+id/drawerlayout_navigation_other"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/view_onclick_bg"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="DrawerLayout+其他Layout" />
+
+    <TextView
+        android:id="@+id/drawerlayout_other2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/view_onclick_bg"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="左右两侧DrawerLayout" />
+
+</android.support.v7.widget.LinearLayoutCompat>

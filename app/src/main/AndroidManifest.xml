@@ -57,7 +57,7 @@
         <activity android:name=".my_dialg_view_test.activity.MyGradualViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyWaterDropLoadViewActivity"/>
         <activity android:name=".my_dialg_view_test.activity.MyLineChartViewActivity"/>
-        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar   因为view2 -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"  没有actionbar  没有这个崩   因为view2 -->
         <activity
             android:name=".my_dialg_view_test.activity.MyScratchCardViewActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
@@ -77,6 +77,19 @@
             android:label="@string/title_activity_drawerlayout_navigation_view"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
+        <!--android:theme="@style/AppTheme.NoActionBar"  没有这个崩，Caused by: java.lang.IllegalStateException:
+         This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR
+         and set windowActionBar to false in your theme to use a Toolbar instead.-->
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".drawerlayout_navigation_toolbar.DrawerLayoutBelowToolbarActivity"/>
+        <!--android:theme="@style/AppTheme.NoActionBar"  没有这个崩，Caused by: java.lang.IllegalStateException:
+         This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR
+         and set windowActionBar to false in your theme to use a Toolbar instead.-->
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".drawerlayout_navigation_toolbar.DrawerLayoutOtherActivity"/>
     </application>
 
 </manifest>
