@@ -13,6 +13,7 @@ import wlj.myapplication.my_draw_view_drawerLayout.MyDrawActivity;
 import wlj.myapplication.practice_draw_view.PracticeDrawActivity;
 import wlj.myapplication.practice_draw_view2.PracticeDrawActivity2;
 import wlj.myapplication.room_test.MyRoomTestActivity;
+import wlj.myapplication.view_drag_helper.ViewDragHelperActivity_All;
 import wlj.myapplication.vlayout_demo.VLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.mvp:
-                    startActivity(new Intent(this, TestMVPActviity.class));
-                    break;
+                startActivity(new Intent(this, TestMVPActviity.class));
+                break;
 
             case R.id.vlayout:
                 startActivity(new Intent(this, VLayoutActivity.class));
@@ -62,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bottom_sheet:
                 startActivity(new Intent(this, BottomSheetActivity.class));
+                break;
+            case R.id.view_drag_helper:
+                startActivity(new Intent(this, ViewDragHelperActivity_All.class));
                 break;
         }
     }

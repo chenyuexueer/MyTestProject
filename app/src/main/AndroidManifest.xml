@@ -91,6 +91,15 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".drawerlayout_navigation_toolbar.DrawerLayoutOtherActivity"/>
         <activity android:name=".bottomsheet.BottomSheetActivity"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity_All"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity2"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity1"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity3"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity4"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity5"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity6"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity7"/>
+        <activity android:name=".view_drag_helper.ViewDragHelperActivity8"/>
     </application>
 
 </manifest>

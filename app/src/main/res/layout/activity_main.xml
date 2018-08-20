@@ -7,110 +7,152 @@
             android:padding="16dp">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="30dp">
+        android:layout_height="30dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/btn_application"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:onClick="onClick"
-            android:gravity="center"
             android:background="@drawable/view_onclick_bg"
-            android:text="Application" />
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Application"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/btn_implementation"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:onClick="onClick"
-            android:gravity="center"
             android:layout_marginTop="10dp"
             android:background="@drawable/view_onclick_bg"
-            android:text="Implementation" />
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Implementation"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/btn_practice_draw"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:onClick="onClick"
-            android:gravity="center"
             android:layout_marginTop="10dp"
             android:background="@drawable/view_onclick_bg"
-            android:text="PractiveDrawView" />
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="PractiveDrawView"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/btn_practice_draw2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:gravity="center"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
             android:background="@drawable/view_onclick_bg"
-            android:text="PractiveDrawView2" />
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="PractiveDrawView2"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/my_draw_view"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/view_onclick_bg"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="自定义view" />
+            android:onClick="onClick"
+            android:text="自定义view"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/mvp"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
             android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="MVP" />
+            android:onClick="onClick"
+            android:text="MVP"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/vlayout"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/view_onclick_bg"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="阿里Vlayout简单使用demo" />
+            android:onClick="onClick"
+            android:text="阿里Vlayout简单使用demo"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/my_dialog_view_test"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/view_onclick_bg"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="my_dialog_view_test(一些demo)" />
+            android:onClick="onClick"
+            android:text="my_dialog_view_test(一些demo)"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/room"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/view_onclick_bg"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="Room数据库" />
+            android:onClick="onClick"
+            android:text="Room数据库"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/drawerlayout"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/view_onclick_bg"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="DrawerLayout Demo" />
+            android:onClick="onClick"
+            android:text="DrawerLayout Demo"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
         <TextView
             android:id="@+id/bottom_sheet"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/view_onclick_bg"
-            android:onClick="onClick"
             android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
             android:gravity="center"
-            android:text="BottomSheet Demo" />
+            android:onClick="onClick"
+            android:text="BottomSheet Demo"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/view_drag_helper"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_onclick_bg"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="ViewDragHelper Demo"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
