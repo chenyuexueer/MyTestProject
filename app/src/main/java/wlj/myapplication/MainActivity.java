@@ -8,6 +8,7 @@ import android.view.View;
 import wlj.myapplication.bottomsheet.BottomSheetActivity;
 import wlj.myapplication.drawerlayout_navigation_toolbar.DrawerLayoutActivityDemo;
 import wlj.myapplication.mvp_demo.test.view.TestMVPActviity;
+import wlj.myapplication.databinding.view.DataBinddingActivity;
 import wlj.myapplication.my_dialg_view_test.MyViewTestActivity;
 import wlj.myapplication.my_draw_view_drawerLayout.MyDrawActivity;
 import wlj.myapplication.practice_draw_view.PracticeDrawActivity;
@@ -66,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.view_drag_helper:
                 startActivity(new Intent(this, ViewDragHelperActivity_All.class));
+                break;
+            case R.id.to_databinding:
+                startActivity(new Intent(this, DataBinddingActivity.class));
                 break;
         }
     }

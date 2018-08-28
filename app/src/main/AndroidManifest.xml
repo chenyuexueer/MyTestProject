@@ -100,6 +100,7 @@
         <activity android:name=".view_drag_helper.ViewDragHelperActivity6"/>
         <activity android:name=".view_drag_helper.ViewDragHelperActivity7"/>
         <activity android:name=".view_drag_helper.ViewDragHelperActivity8"/>
+        <activity android:name=".databinding.view.DataBinddingActivity"/>
     </application>
 
 </manifest>
