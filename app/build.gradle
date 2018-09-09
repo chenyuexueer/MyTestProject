@@ -76,4 +76,9 @@ dependencies {
     annotationProcessor "android.arch.persistence.room:compiler:$room_version"
     //添加测试支持，我们可以对数据库进行androidTest
     implementation "android.arch.persistence.room:testing:$room_version"
+
+    //阿里团队ultraviewpager
+    implementation ('com.alibaba.android:ultraviewpager:1.0.7.7@aar') {
+        transitive = true
+    }
 }
