@@ -102,6 +102,7 @@
         <activity android:name=".view_drag_helper.ViewDragHelperActivity8"/>
         <activity android:name=".databinding.view.DataBinddingActivity"/>
         <activity android:name=".ultra_view_pager.UltraViewPagerActivity1"/>
+        <activity android:name=".view_drag_helper.test.ViewDragHelperActivity_Test"/>
     </application>
 
 </manifest>

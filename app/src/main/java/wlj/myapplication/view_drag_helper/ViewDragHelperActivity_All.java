@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import wlj.myapplication.R;
+import wlj.myapplication.view_drag_helper.test.ViewDragHelperActivity_Test;
 
 /**
  * ================================================
@@ -56,7 +57,7 @@ public class ViewDragHelperActivity_All extends AppCompatActivity {
                 Toast.makeText(this, "没做，嘻嘻嘻", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.tv_9:
-                Toast.makeText(this, "没做，嘻嘻嘻", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, ViewDragHelperActivity_Test.class));
                 break;
         }
     }

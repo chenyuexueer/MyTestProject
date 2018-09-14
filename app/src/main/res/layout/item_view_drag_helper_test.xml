@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wlj.myapplication.view_drag_helper.test.ViewDragHelperRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_drag_helper_layout"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:padding="10dp"
+            android:text="删除"
+            android:textColor="@color/red"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/chat_interaction_headimg_rl"
+            android:layout_width="56dp"
+            android:layout_height="56dp">
+
+            <ImageView
+                android:id="@+id/chat_interaction_head_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_menu_camera"/>
+
+            <TextView
+                android:id="@+id/chat_interaction_message_number_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_menu_gallery"
+                android:includeFontPadding="false"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_chat_interaction_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/chat_interaction_headimg_rl"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="客服"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/item_chat_interaction_message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_chat_interaction_name_tv"
+            android:layout_toRightOf="@+id/chat_interaction_headimg_rl"
+            android:paddingLeft="10dp"
+            android:text="刷我滴卡！！！"/>
+
+        <TextView
+            android:id="@+id/chat_interaction_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:privateImeOptions="10dp"
+            android:text="15:23"/>
+    </RelativeLayout>
+
+</wlj.myapplication.view_drag_helper.test.ViewDragHelperRelativeLayout>
