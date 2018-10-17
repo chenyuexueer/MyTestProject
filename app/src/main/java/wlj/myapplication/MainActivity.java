@@ -16,6 +16,7 @@ import wlj.myapplication.practice_draw_view2.PracticeDrawActivity2;
 import wlj.myapplication.room_test.MyRoomTestActivity;
 import wlj.myapplication.view_drag_helper.ViewDragHelperActivity_All;
 import wlj.myapplication.vlayout_demo.VLayoutActivity;
+import wlj.myapplication.zxing.ZXingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -70,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.to_databinding:
                 startActivity(new Intent(this, DataBinddingActivity.class));
+                break;
+            case R.id.zxing:
+                startActivity(new Intent(this, ZXingActivity.class));
                 break;
         }
     }
