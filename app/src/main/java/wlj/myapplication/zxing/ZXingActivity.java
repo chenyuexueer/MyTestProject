@@ -12,7 +12,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.example.zxing.activity.CaptureActivity;
 
 /**
  * ================================================
@@ -35,8 +34,8 @@ public class ZXingActivity extends AppCompatActivity {
             }
         }
 
-        Intent intent = new Intent(ZXingActivity.this, CaptureActivity.class);
-        startActivityForResult(intent,0);
+//        Intent intent = new Intent(ZXingActivity.this, CaptureActivity.class);
+//        startActivityForResult(intent,0);
     }
 
 
